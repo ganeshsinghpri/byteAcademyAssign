@@ -35,7 +35,6 @@ var day = days[d.getDay()];
   });
 });
 
-
     
   } catch (error) {
     res.status(500).send({
