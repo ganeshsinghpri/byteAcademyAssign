@@ -44,6 +44,6 @@ var day = days[d.getDay()];
   }
 });
 
-app.listen(3030, () => {
-  console.log('server start on port 3030');
+app.listen(process.env.PORT || 5000, () => {
+  console.log('server start on port 5000');
 });
