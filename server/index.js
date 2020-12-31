@@ -14,7 +14,7 @@ app.use(express.static(buildPath));
 
 app.post('/send', (req, res) => {
   try {
-    
+    console.log("inside post method");
 var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
 var d = new Date(req.body.dob);
